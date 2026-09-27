@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario - Librería</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Inventario de Librería</h1>
+        
+        <form action="/agregar" method="POST">
+            <div class="campo">
+                <label for="nombre">Nombre del artículo:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Ej: Cuaderno A5 tapa blanda">
+            </div>
+
+            <div class="campo">
+                <label for="categoria">Categoría:</label>
+                <select id="categoria" name="categoria">
+                    <option value="Escolar">Escolar</option>
+                    <option value="Papelería">Papelería</option>
+                    <option value="Oficina">Oficina</option>
+                    <option value="Arte">Arte</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="precio">Precio:</label>
+                <input type="number" step="0.01" id="precio" name="precio" required placeholder="Ej: 1500">
+            </div>
+
+            <button type="submit">Guardar</button>
+        </form>
+
+        <hr style="margin-top: 25px;">
+
+        <h2>Inventario Guardado</h2>
+        <button type="button" class="btn-cargar" onclick="obtenerProductos()">Cargar productos de la BD</button>
+
+        <ul id="lista-productos"></ul>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
