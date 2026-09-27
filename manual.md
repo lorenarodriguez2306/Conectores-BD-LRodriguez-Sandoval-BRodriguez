@@ -28,6 +28,10 @@ Para mostrar los productos que ya están guardados, se presiona un boton en el c
 
 Para que todo funcione, primero se debe encender el proyecto escribiendo en la terminal el comando **node index.js** el cual index.js es  donde se unen el servidor (Express), el conector (SQLite) y las reglas de cómo debe comportarse la página. Una vez que el servidor está activo, para ingresar a la página web bo abriremos el html, si no que en el navegador buscaremos **http://localhost:3000** para ver la web en funcionamiento, 3000 viene a ser el puerto que asignamos en el que se aloja nuestro trabajo.
 
-###Dato importante
+### Datos importantes
+
+Si este proyecto se prueba en un nuevo dispositivo, se tendrá que ejecutar los comandos de instalación del paso 2 para que el proyecto funcione
+
+Para utilizar este trabajo primero se debe ejecutar el comando **node index.js** en la consola de la carpeta donde se haya guardado este proyecto, si no se hace esto la página tirará error, **NO** se debe cerrar la consola con el comando ejecutandose si aún sigues en la página o dejará de funcionar y se tendrá que volver a ejecutar el código.
 
 Al poner en funcionamiento a **index.js** este contiene los comandos para crear la base de datos y la tabla donde irán los registros, a pesar de cerrar la página los datos seguirán guardados en la base de datos creada y se podrán seguir recuperando. 
