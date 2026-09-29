@@ -14,7 +14,7 @@ Debemos tener Node.js ya instalado desde su pagina oficial, para preparar la car
 
 ### Paso 3: Crear la tabla de datos
 
-Dentro del código, el conector crea una tabla con la orden **CREATE TABLE IF NOT EXISTS (nombre de la tabla)**. Es muy importante definir el ID como **INTEGER PRIMARY KEY AUTOINCREMENT** para que la base de datos le asigne un número único a cada artículo de forma automática, hay que asegurar que esté escrito **INTEGER** y no **INT** para que **AUTOINCREMENT** funcione.
+Dentro del código, el conector crea una tabla con la orden **CREATE TABLE IF NOT EXISTS (nombre de la tabla)**. Es muy importante definir el ID como **INTEGER PRIMARY KEY AUTO_INCREMENT** para que la base de datos le asigne un número único a cada artículo de forma automática, hay que asegurar que esté escrito **INTEGER** y no **INT** para que **AUTO_INCREMENT** funcione.
 
 ### Paso 4: Cómo agregar información
 
