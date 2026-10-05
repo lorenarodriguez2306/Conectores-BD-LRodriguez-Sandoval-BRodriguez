@@ -1,5 +1,7 @@
 # Manual: Cómo conectar un formulario web a una base de datos y como agregar y extraer información.
 
+##Video: https://youtu.be/ei5sPrbLhY8?si=wyw1AEPYzRO_ZrRl
+
 ### ¿Qué es un conector de base de datos?
 
 Es un **puente** que permite que el lenguaje de programación (en este caso JavaScript) se comunique con el sistema de base de datos. Funciona como un traductor que toma las instrucciones de tu código para que la base de datos pueda guardar o entregarte la información que necesitas.
