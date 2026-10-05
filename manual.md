@@ -1,6 +1,6 @@
 # Manual: Cómo conectar un formulario web a una base de datos y como agregar y extraer información.
 
-##Video: https://youtu.be/ei5sPrbLhY8?si=wyw1AEPYzRO_ZrRl
+## Video: https://youtu.be/ei5sPrbLhY8?si=wyw1AEPYzRO_ZrRl
 
 ### ¿Qué es un conector de base de datos?
 
