@@ -1,12 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     margin: 30px;
-    background-color: #93bada;
+    background-color: #b6a8d1;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-    
 
 .contenedor {
+    width: 100%;
     max-width: 500px;
     background: rgb(219, 227, 245);
     padding: 20px;
@@ -15,6 +17,7 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     
 }
+
 
 h1 {
     color: #0e273d;
